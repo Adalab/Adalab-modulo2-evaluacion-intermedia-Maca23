@@ -19,6 +19,7 @@
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    width: 350px;
 }
 
 .label {
@@ -45,4 +46,5 @@
     border: 3px solid rgb(179, 179, 179);
     height: 30px;
     font-size: 20px;
+    width: 350px;
 }
