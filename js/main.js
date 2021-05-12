@@ -16,12 +16,14 @@ function getNumber() {
   let numberValue = parseInt(numberElement.value);
   console.log(numberElement.value);
   if (numberValue === randomNumber) {
-    clueElement.value = 'Has ganado campeona!!!';
+    clueElement.value = "Has ganado campeona!!!";
   } else if (numberValue < randomNumber) {
-    clueElement.value = 'Demasiado bajo';
+    clueElement.value = "Demasiado bajo";
   } else if (numberValue > randomNumber) {
-    clueElement.value = 'Demasiado alto';
+    clueElement.value = "Demasiado alto";
+  } else {
+    clueElement.value = "El número debe estar entre 1 y 100";
   }
-}
+};
 
 buttonElement.addEventListener("click", getNumber);
